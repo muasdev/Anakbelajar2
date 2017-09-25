@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muasmakkode.anakbelajar.ActivityBelajarHuruf">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            style="@style/style_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belajar Huruf"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            style="@style/style_judul"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="geser huruf dan dengarkan suaranya"  />
+
+        <ImageView
+            android:id="@+id/imageView_utama"
+            style="@style/style_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+             />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageView_a"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_a" />
+
+                <ImageButton
+                    android:id="@+id/imageView_b"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_b" />
+
+                <ImageButton
+                    android:id="@+id/imageView_c"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_c" />
+
+                <ImageButton
+                    android:id="@+id/imageView_d"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_d" />
+
+                <ImageButton
+                    android:id="@+id/imageView_e"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_e" />
+
+                <ImageButton
+                    android:id="@+id/imageView_f"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_f" />
+
+                <ImageButton
+                    android:id="@+id/imageView_g"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_g" />
+
+                <ImageButton
+                    android:id="@+id/imageView_h"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_h" />
+
+                <ImageButton
+                    android:id="@+id/imageView_i"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_i" />
+
+                <ImageButton
+                    android:id="@+id/imageView_j"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_j" />
+
+                <ImageButton
+                    android:id="@+id/imageView_k"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_k" />
+
+                <ImageButton
+                    android:id="@+id/imageView_l"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_l" />
+
+                <ImageButton
+                    android:id="@+id/imageView_m"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_m" />
+
+                <ImageButton
+                    android:id="@+id/imageView_n"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_n" />
+
+                <ImageButton
+                    android:id="@+id/imageView_o"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_o" />
+
+                <ImageButton
+                    android:id="@+id/imageView_p"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_p" />
+
+                <ImageButton
+                    android:id="@+id/imageView_q"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_q" />
+
+                <ImageButton
+                    android:id="@+id/imageView_r"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_r" />
+
+                <ImageButton
+                    android:id="@+id/imageView_s"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_s" />
+
+                <ImageButton
+                    android:id="@+id/imageView_t"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_t" />
+
+                <ImageButton
+                    android:id="@+id/imageView_u"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_u" />
+
+                <ImageButton
+                    android:id="@+id/imageView_v"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_v" />
+
+                <ImageButton
+                    android:id="@+id/imageView_w"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_w" />
+
+                <ImageButton
+                    android:id="@+id/imageView_x"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_x" />
+
+                <ImageButton
+                    android:id="@+id/imageView_y"
+                    style="@style/style_image"
+                    app:srcCompat="@drawable/huruf_y" />
+
+                <ImageButton
+                android:id="@+id/imageView_z"
+                style="@style/style_image"
+                app:srcCompat="@drawable/huruf_z" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

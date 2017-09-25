@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muasmakkode.anakbelajar.MatematikaActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/button_belajar_segitiga"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            style="@style/style_button"
+            android:text="luas keliling segitiga" />
+
+        <Button
+            android:id="@+id/button_belajar_persegi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            style="@style/style_button"
+            android:text="luas keliling persegi" />
+
+        <Button
+            android:id="@+id/button_belajar_persegi_panjang"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            style="@style/style_button"
+            android:text="luas keliling persegi panjang" />
+
+        <Button
+            android:id="@+id/button_belajar_lingkaran"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            style="@style/style_button"
+            android:text="luas keliling lingkaran" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

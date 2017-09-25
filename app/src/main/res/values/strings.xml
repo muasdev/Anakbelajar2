@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Anak belajar</string>
+
+    <string name="rumus_keliling_lingkaran">Keliling Lingkaran = 22/7 X jari-jari</string>
+    <string name="rumus_keliling_persegi">Keliling Persegi = 4 X sisi</string>
+    <string name="rumus_keliling_persegipanjang">Keliling Persegi Panjang= 2 X (panjang + lebar)</string>
+    <string name="rumus_keliling_segitiga">Keliling Segitiga = AB + AC + BC</string>
+    <string name="rumus_luas_lingkaran">Luas Lingkaran = 22/7 X jari-jari X jari-jari</string>
+    <string name="rumus_luas_persegi">Luas Persegi = sisi X sisi</string>
+    <string name="rumus_luas_segitiga">Luas Segitiga = 1/2 X alas (BC) X tinggi AB</string>
+    <string name="rumus_luas_persegipanjang">Luas Persegi Panjang = panjang X lebar </string>
+
+    <string name="deskripsi">Ini merupakan halaman yang berisi tentang profil saya</string>
+</resources>
